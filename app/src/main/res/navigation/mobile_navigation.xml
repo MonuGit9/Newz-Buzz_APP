@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_CMC">
+
+    <fragment
+        android:id="@+id/nav_mc"
+        android:name="com.planetapps.newzbuzz.ui.mc.McFragment"
+        android:label="Moneycontrol"
+        tools:layout="@layout/fragment_mc" />
+
+    <fragment
+        android:id="@+id/nav_cb"
+        android:name="com.planetapps.newzbuzz.ui.cb.GalleryFragment"
+        android:label="Cricbuzz"
+        tools:layout="@layout/fragment_cb" />
+
+
+    <fragment
+        android:id="@+id/nav_forbes"
+        android:name="Fragment.Forbes"
+        android:label="Forbes"
+        tools:layout="@layout/fragment_forbes" />
+    <fragment
+        android:id="@+id/nav_TOI"
+        android:name="Fragment.TimesOfIndia"
+        android:label="Times Of India"
+        tools:layout="@layout/fragment_toi" />
+    <fragment
+        android:id="@+id/nav_CMC"
+        android:name="Fragment.CMC"
+        android:label="CoinMarketCap"
+        tools:layout="@layout/fragment_c_m_c" />
+</navigation>

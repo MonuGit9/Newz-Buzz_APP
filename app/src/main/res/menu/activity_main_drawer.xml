@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_CMC"
+            android:icon="@drawable/ic_action_cmc"
+            android:menuCategory="secondary"
+            android:title="CoinMarketCap" />
+
+        <item
+            android:id="@+id/nav_forbes"
+            android:icon="@drawable/ic_action_forbes"
+            android:menuCategory="secondary"
+            android:title="Forbes" />
+
+
+        <item
+            android:id="@+id/nav_mc"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_action_mc"
+            android:title="Moneycontrol" />
+
+        <item
+            android:id="@+id/nav_cb"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_action_cb"
+            android:title="Cricbuzz" />
+
+
+
+        <item
+            android:id="@+id/nav_TOI"
+            android:icon="@drawable/ic_action_toi"
+            android:menuCategory="secondary"
+            android:title="Times Of India" />
+
+
+
+    </group>
+</menu>
